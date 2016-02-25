@@ -146,26 +146,26 @@
     background-color: #56D0B3;
 }
 .section2 p{
-    padding-top: 10%;
-    font-size: 5vw;
+    padding-top: 16%;
+    font-size: 3vw;
     color: #E8E8E8;
+}
+.section2 img{
+    float: left;
 }
 /********************* section3 *******************************************************************************/
 .section3{
-    text-align: center;
     height: 100vh;
     background-color: #46A8BF;
 }
-.section3 p{
-    padding-top: 15%;
-    font-size: 5vw;
-    color: #E8E8E8;
+.section3 img{
+    float: right
 }
-
-/********************* footer *******************************************************************************/
-.footer{
-    height: 30vh;
-    background-color: grey;
+.section3 p{
+    padding-top: 19%;
+    font-size: 4vw;
+    color: #E8E8E8;
+    text-align: center;
 }
 
 
@@ -204,4 +204,18 @@
 .right{
     background-color: yellow;
     height: 100vw
+}
+
+
+/********************************************** footer *****************************************************/
+
+.footer{
+    background-color: #3C3940;
+    height: 400px;
+    padding-left: 35%;
+    padding-top: 30px;
+}
+
+.footer h3{
+    font-size: 7vw
 }
