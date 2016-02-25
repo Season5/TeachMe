@@ -1,0 +1,207 @@
+.top-bar, .top-bar ul {
+    background-color: transparent;
+}
+.top-bar{
+    height: 10vw;
+    position:relative;
+}
+.nav{
+    height: 100%;
+    background-image:url(../img/background-learner.jpg);
+}
+#white{
+    color: white;
+}
+.main h1{
+    text-align: center;
+    font-size: 13vw;
+    line-height: 0.8;
+    margin-top: 5%;
+    color: white;
+}
+.main p{
+    text-align: center;
+    font-size: 2vw;
+    line-height: 0.8;
+    margin-bottom: 15%;
+    color: white;
+}
+/********************* button *******************************************************************************/
+@font-face {
+	font-family: "open";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Open Sans Light"), local("OpenSans-Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.biliboard a {
+	display: block;
+	margin: auto;
+	text-decoration: none;
+    
+}
+
+@keyframes linear {
+	
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 200px 0;
+	}
+	
+}
+
+@keyframes radial {
+	
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 60px;
+	}
+	
+}
+
+@keyframes repeating {
+	
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 85px;
+	}
+	
+}
+
+@keyframes electronic {
+	
+	0%, 100% {
+		background-position: 20px -30px;
+	}
+	25% {
+		background-position: 150px 5px;
+	}
+	50% {
+		background-position: 20px 40px;
+	}
+	75% {
+		background-position: -100px 5px;
+	}
+	
+}
+
+.biliboard {
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	color: white;
+	font: 23px open, tahoma;
+    margin-left: 43%;
+    
+}
+.biliboard:before {
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	border-radius: 3px;
+	transform: scale( 1.02, 1.08 );
+	position: absolute;
+	background: #f00;
+	background: linear-gradient( 90deg, #fafafa, #fafafa, #1D8EF7, #fafafa, #fafafa );
+	background-position: 55px 0;
+	top: 0;
+	animation: linear 1s infinite linear;
+	left: 0;
+	z-index: -1;
+}
+
+.biliboard.radial:before {
+	background: radial-gradient( #fafafa, #fafafa, #F2A61A, #fafafa, #fafafa );
+	animation: radial 1s infinite linear;
+}
+
+.biliboard.repeating:before {
+	background: repeating-linear-gradient( -45deg, #fafafa, #fafafa 30px, #5FC914 30px, #5FC914 60px ) fixed;
+	animation: repeating 1s infinite linear;
+}
+
+.biliboard.electronic:before {
+	background: radial-gradient( #EA238D, #EA238D, #EA238D, #EA238D, #fafafa, #fafafa ) no-repeat;
+	background-size: 150px 50px;
+	animation: electronic 2s infinite linear;
+}
+/********************* section2 *******************************************************************************/
+.section2{
+    text-align: center;
+    height: 100vh;
+    background-color: #56D0B3;
+}
+.section2 p{
+    padding-top: 10%;
+    font-size: 5vw;
+    color: #E8E8E8;
+}
+/********************* section3 *******************************************************************************/
+.section3{
+    text-align: center;
+    height: 100vh;
+    background-color: #46A8BF;
+}
+.section3 p{
+    padding-top: 15%;
+    font-size: 5vw;
+    color: #E8E8E8;
+}
+
+/********************* footer *******************************************************************************/
+.footer{
+    height: 30vh;
+    background-color: grey;
+}
+
+
+/********************************************** hero-nav *****************************************************/
+
+.hero-nav{
+    background-color: red;
+    height: 8%
+}
+
+/********************************************** hero *****************************************************/
+.hero{
+    height: 60%;
+    color: white;
+    background-color: purple;
+}
+.hero h2{
+    padding-top: 10vw;
+    text-align: center;
+    font-size: 2em;
+}
+
+/********************************************** side nav *****************************************************/
+
+
+.left{
+    background-color: red;
+    position: fixed;
+    height: 60vw;
+    top: 50.8%;
+}
+.left li a{
+    text-decoration: none;
+    color: black;
+}
+.right{
+    background-color: yellow;
+    height: 100vw
+}
