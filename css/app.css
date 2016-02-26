@@ -1,17 +1,39 @@
+/*Top bar transparency*/
 .top-bar, .top-bar ul {
     background-color: transparent;
 }
+
+
+
+
+/*top bar container*/
 .top-bar{
     height: 10vw;
     position:relative;
 }
+
+
+
+
+
+/*Full screen contaoner cotaining the background picture and the texts*/
 .nav{
     height: 100%;
     background-image:url(../img/background-learner.jpg);
 }
+
+
+
+
+/*nav list color*/
 #white{
     color: white;
 }
+
+
+
+
+/*Teach me Block text plus slogan*/
 .main h1{
     text-align: center;
     font-size: 13vw;
@@ -26,7 +48,11 @@
     margin-bottom: 15%;
     color: white;
 }
-/********************* button *******************************************************************************/
+
+
+
+
+/********************* button styling *******************************************************************************/
 @font-face {
 	font-family: "open";
 	font-style: normal;
@@ -139,6 +165,13 @@
 	background-size: 150px 50px;
 	animation: electronic 2s infinite linear;
 }
+/********************* End of button styling *******************************************************************************/
+
+
+
+
+
+
 /********************* section2 *******************************************************************************/
 .section2{
     text-align: center;
@@ -171,17 +204,27 @@
 
 /********************************************** hero-nav *****************************************************/
 
+
+
+
+/*learning page nav container*/
 .hero-nav{
     background-color: red;
     height: 8%
 }
 
 /********************************************** hero *****************************************************/
+
+
+/*Hero page containing the welcome note*/
 .hero{
     height: 60%;
     color: white;
     background-color: purple;
 }
+
+
+/*hero header styling*/
 .hero h2{
     padding-top: 10vw;
     text-align: center;
@@ -191,16 +234,26 @@
 /********************************************** side nav *****************************************************/
 
 
+
+
+/*left bar navingation styling*/
 .left{
     background-color: red;
     position: fixed;
     height: 60vw;
     top: 50.8%;
 }
+
+
+/*left bar navingation <a> styling*/
 .left li a{
     text-decoration: none;
     color: black;
-}
+} 
+
+
+
+/*righ container that should contain the list of tutors available*/
 .right{
     background-color: yellow;
     height: 100vw
@@ -209,6 +262,10 @@
 
 /********************************************** footer *****************************************************/
 
+
+
+
+/*footer container*/
 .footer{
     background-color: #3C3940;
     height: 400px;
@@ -216,6 +273,9 @@
     padding-top: 30px;
 }
 
+
+
+/*footer teach me logo styling*/
 .footer h3{
     font-size: 7vw
 }
